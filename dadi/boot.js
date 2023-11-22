@@ -23,9 +23,9 @@ document.getElementById("roll").addEventListener("click",
 
   // determiniamo il risultato con una variabile
   if (player1Score > player2Score) {
-    result = `${player1}     won the round`;
+    result = `${player1} vince il round`;
   }else if (player2Score > player1Score) {
-    result = `${player2} won the round`;
+    result = `${player2} vince il round`;
   }else{
     result = "This round is tied";
   }
